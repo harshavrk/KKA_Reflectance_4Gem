@@ -79,14 +79,14 @@ u(:,1)=(1-R(:,1))./(1+R(:,1)-2*cos(thetafin(:,1)).*sqrt(R(:,1)));%%%%Evaluating 
 v(:,1)=(-2*sqrt(R(:,1)).*sin(thetafin(:,1)))./(1+R(:,1)-2*cos(thetafin(:,1)).*sqrt(R(:,1)));%%%%Evaluating bulk extinction constant from Phase and Reflectance
 
 %Doubly subtractive KK anlysis intiation
-n2=2.36725;%known refractive index at wavelength of 800.99 nm 
-n1=2.598054;%known refractive index at wavelength of 200.06 nm 
+n2=2.3673;%known refractive index at wavelength of 800.99 nm 
+n1=2.5981;%known refractive index at wavelength of 200.06 nm 
 
 wl2=800.99;%known pivot point wavelength
 wl1=208.00;%known pivot point wavelength
 
 for i=1:d
-kl(i,1)= (v(i,1)*l(i,1)*(1e-9))/(4*pi*2*5*1e-3);%Evaluating the extinction coefficient for a 1 mm thick slide
+kl(i,1)= (v(i,1)*l(i,1)*(1e-9))/(4*pi*2*3.5*1e-3);%Evaluating the extinction coefficient for a 1 mm thick slide
 end
 
 for i=1:d
