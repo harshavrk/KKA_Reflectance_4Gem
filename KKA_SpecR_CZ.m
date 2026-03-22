@@ -80,14 +80,14 @@ v(:,1)=(-2*sqrt(R(:,1)).*sin(thetafin(:,1)))./(1+R(:,1)-2*cos(thetafin(:,1)).*sq
 
 %Doubly subtractive KK anlysis intiation
 
-n2=2.118024;%known refractive index at wavelength of 800.99 nm 
-n1=2.459045;%known refractive index at wavelength of 208.00 nm 
+n2=2.1180;%known refractive index at wavelength of 800.99 nm 
+n1=2.4591;%known refractive index at wavelength of 208.00 nm 
 
 wl2=800.99;%known pivot point wavelength
 wl1=208.00;%known pivot point wavelength
 
 for i=1:d
-kl(i,1)= (v(i,1)*l(i,1)*(1e-9))/(4*pi*2*5*1e-3);%Evaluating the extinction coefficient for a 1 mm thick slide
+kl(i,1)= (v(i,1)*l(i,1)*(1e-9))/(4*pi*2*6*1e-3);%Evaluating the extinction coefficient for a 1 mm thick slide
 end
 
 for i=1:d
