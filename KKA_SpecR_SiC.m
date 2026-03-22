@@ -81,7 +81,7 @@ v(:,1)=(-2*sqrt(R(:,1)).*sin(thetafin(:,1)))./(1+R(:,1)-2*cos(thetafin(:,1)).*sq
 %Doubly subtractive KK anlysis intiation
 
 n2=2.6635;%known refractive index at wavelength of 691.00 nm 
-n1=2.71860;%known refractive index at wavelength of 467.00 nm 
+n1=2.7186;%known refractive index at wavelength of 467.00 nm 
 
 wl2=691.00;%known pivot point wavelength
 wl1=467.00;%known pivot point wavelength
